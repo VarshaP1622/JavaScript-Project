@@ -1,0 +1,103 @@
+/* 
+.container {
+    text-align: center;
+    margin-top: 100px;
+    background-color: #0056b3;
+}
+
+#monkey {
+    width: 150px;
+    height: 200px;
+    background-image: url('monkey.png');
+    background-size: cover;
+    margin: 0 auto;
+    animation: none;
+}
+
+#problem {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #140d0d;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+@keyframes clap {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(20deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.clapping {
+    animation: clap 0.5s ease-in-out;
+}
+ */
+
+ .container {
+    text-align: center;
+    margin-top: 50px;
+    background-color: aqua;
+    font-size: xx-large;
+}
+
+#character {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    position: relative;
+    animation: moveCharacter 5s linear infinite;
+}
+
+@keyframes moveCharacter {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: calc(100% - 100px);
+    }
+}
+
+#problem {
+    font-size: 50px;
+    margin-bottom: 200px;
+}
+
+input[type="text"] {
+    padding: 25px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 25px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+element.style {
+    font-size: xx-large;
+}
